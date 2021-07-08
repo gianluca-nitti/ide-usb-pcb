@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ide-usb-pcb)(type KiCad)(uri ${KIPRJMOD}/ide-usb-pcb.pretty)(options "")(descr ""))
+)
