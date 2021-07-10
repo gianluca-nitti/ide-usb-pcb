@@ -99,21 +99,19 @@ Text Label 5100 2250 2    50   ~ 0
 DD1B
 Text Label 5100 2350 2    50   ~ 0
 DD0B
-Text Label 5100 3750 2    50   ~ 0
-DD8B
-Text Label 5100 3850 2    50   ~ 0
-DD9B
-Text Label 5100 3950 2    50   ~ 0
-DD10B
-Text Label 5100 4050 2    50   ~ 0
-DD11B
-Text Label 5100 4150 2    50   ~ 0
-DD12B
-Text Label 5100 4250 2    50   ~ 0
-DD13B
-Text Label 5100 4350 2    50   ~ 0
-DD14B
 Text Label 5100 4450 2    50   ~ 0
+DD8B
+Text Label 5100 4250 2    50   ~ 0
+DD10B
+Text Label 5100 4150 2    50   ~ 0
+DD11B
+Text Label 5100 4050 2    50   ~ 0
+DD12B
+Text Label 5100 3950 2    50   ~ 0
+DD13B
+Text Label 5100 3850 2    50   ~ 0
+DD14B
+Text Label 5100 3750 2    50   ~ 0
 DD15B
 Text Label 5900 1650 0    50   ~ 0
 DD7A
@@ -135,21 +133,21 @@ Text Label 5900 2450 0    50   ~ 0
 OE
 Text Label 5900 4550 0    50   ~ 0
 OE
-Text Label 5900 3750 0    50   ~ 0
-DD8A
-Text Label 5900 3850 0    50   ~ 0
-DD9A
-Text Label 5900 3950 0    50   ~ 0
-DD10A
-Text Label 5900 4050 0    50   ~ 0
-DD11A
-Text Label 5900 4150 0    50   ~ 0
-DD12A
-Text Label 5900 4250 0    50   ~ 0
-DD13A
-Text Label 5900 4350 0    50   ~ 0
-DD14A
 Text Label 5900 4450 0    50   ~ 0
+DD8A
+Text Label 5900 4350 0    50   ~ 0
+DD9A
+Text Label 5900 4250 0    50   ~ 0
+DD10A
+Text Label 5900 4150 0    50   ~ 0
+DD11A
+Text Label 5900 4050 0    50   ~ 0
+DD12A
+Text Label 5900 3950 0    50   ~ 0
+DD13A
+Text Label 5900 3850 0    50   ~ 0
+DD14A
+Text Label 5900 3750 0    50   ~ 0
 DD15A
 Text Label 8700 2400 0    28   ~ 0
 OE
@@ -766,4 +764,6 @@ Wire Wire Line
 Connection ~ 2500 5900
 Wire Wire Line
 	2500 5900 2500 5950
+Text Label 5100 4350 2    50   ~ 0
+DD9B
 $EndSCHEMATC
