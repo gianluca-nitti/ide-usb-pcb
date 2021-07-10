@@ -695,7 +695,7 @@ U 1 1 60EB6BDB
 P 2650 4400
 F 0 "J3" H 2730 4392 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 2730 4301 50  0000 L CNN
-F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_2pol" H 2650 4400 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 2650 4400 50  0001 C CNN
 F 3 "~" H 2650 4400 50  0001 C CNN
 	1    2650 4400
 	1    0    0    -1  
