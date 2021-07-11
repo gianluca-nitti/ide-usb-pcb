@@ -293,10 +293,6 @@ F 3 "" H 6300 2750 50  0001 C CNN
 	1    6300 2750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6300 4850 5600 4850
-Wire Wire Line
-	6300 2750 5600 2750
 $Comp
 L power:+3.3V #PWR010
 U 1 1 60E8794A
@@ -602,17 +598,6 @@ F 3 "~" H 3100 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R12
-U 1 1 60F1F972
-P 2300 3200
-F 0 "R12" V 2300 3150 31  0000 C CNN
-F 1 "33" V 2300 3250 31  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2230 3200 50  0001 C CNN
-F 3 "~" H 2300 3200 50  0001 C CNN
-	1    2300 3200
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R11
 U 1 1 60F200F6
 P 2300 3100
@@ -792,4 +777,218 @@ Wire Wire Line
 	8700 2400 9200 2400
 Wire Wire Line
 	9200 2400 9200 2450
+Text Label 2150 2500 2    50   ~ 0
+DMARQ
+Text Label 2150 2800 2    50   ~ 0
+IORDY
+Text Label 2150 2900 2    50   ~ 0
+DMACK
+Text Label 2150 3000 2    50   ~ 0
+INTRQ
+$Comp
+L Device:R R12
+U 1 1 60F1F972
+P 2300 3200
+F 0 "R12" V 2300 3150 31  0000 C CNN
+F 1 "33" V 2300 3250 31  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2230 3200 50  0001 C CNN
+F 3 "~" H 2300 3200 50  0001 C CNN
+	1    2300 3200
+	0    1    1    0   
+$EndComp
+Text Label 2150 3400 2    50   ~ 0
+ACT
+Wire Wire Line
+	2150 2500 2450 2500
+Wire Wire Line
+	2150 2800 2450 2800
+Wire Wire Line
+	2150 2900 2450 2900
+Wire Wire Line
+	2450 3000 2150 3000
+Wire Wire Line
+	2150 3400 2450 3400
+Text Label 2950 3100 0    50   ~ 0
+PDIAG
+Text Label 2950 3000 0    50   ~ 0
+IOCS16
+Text Label 2950 2800 0    50   ~ 0
+CSEL
+$Comp
+L Connector:Conn_01x01_Male J5
+U 1 1 60EEBDAD
+P 1050 1350
+F 0 "J5" H 1158 1531 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 1158 1440 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 1050 1350 50  0001 C CNN
+F 3 "~" H 1050 1350 50  0001 C CNN
+	1    1050 1350
+	1    0    0    -1  
+$EndComp
+Text Label 1250 1350 0    50   ~ 0
+DMARQ
+$Comp
+L Connector:Conn_01x01_Male J6
+U 1 1 60EEE5DF
+P 1050 1850
+F 0 "J6" H 1158 2031 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 1158 1940 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 1050 1850 50  0001 C CNN
+F 3 "~" H 1050 1850 50  0001 C CNN
+	1    1050 1850
+	1    0    0    -1  
+$EndComp
+Text Label 1250 1850 0    50   ~ 0
+DMACK
+$Comp
+L Connector:Conn_01x01_Male J7
+U 1 1 60F0768E
+P 1050 2100
+F 0 "J7" H 1158 2281 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 1158 2190 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 1050 2100 50  0001 C CNN
+F 3 "~" H 1050 2100 50  0001 C CNN
+	1    1050 2100
+	1    0    0    -1  
+$EndComp
+Text Label 1250 2100 0    50   ~ 0
+INTRQ
+$Comp
+L Connector:Conn_01x01_Male J8
+U 1 1 60F07695
+P 1050 2350
+F 0 "J8" H 1158 2531 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 1158 2440 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 1050 2350 50  0001 C CNN
+F 3 "~" H 1050 2350 50  0001 C CNN
+	1    1050 2350
+	1    0    0    -1  
+$EndComp
+Text Label 1250 2350 0    50   ~ 0
+ACT
+$Comp
+L Connector:Conn_01x01_Male J9
+U 1 1 60F15E73
+P 1050 2550
+F 0 "J9" H 1158 2731 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 1158 2640 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 1050 2550 50  0001 C CNN
+F 3 "~" H 1050 2550 50  0001 C CNN
+	1    1050 2550
+	1    0    0    -1  
+$EndComp
+Text Label 1250 2550 0    50   ~ 0
+CSEL
+$Comp
+L Connector:Conn_01x01_Male J10
+U 1 1 60F15E7A
+P 1050 2800
+F 0 "J10" H 1158 2981 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 1158 2890 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 1050 2800 50  0001 C CNN
+F 3 "~" H 1050 2800 50  0001 C CNN
+	1    1050 2800
+	1    0    0    -1  
+$EndComp
+Text Label 1250 2800 0    50   ~ 0
+IOCS16
+$Comp
+L Connector:Conn_01x01_Male J11
+U 1 1 60F15E81
+P 1050 3050
+F 0 "J11" H 1158 3231 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 1158 3140 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 1050 3050 50  0001 C CNN
+F 3 "~" H 1050 3050 50  0001 C CNN
+	1    1050 3050
+	1    0    0    -1  
+$EndComp
+Text Label 1250 3050 0    50   ~ 0
+PDIAG
+NoConn ~ 2950 2400
+NoConn ~ 2800 5400
+NoConn ~ 2800 5500
+NoConn ~ 7650 1550
+NoConn ~ 7700 1600
+NoConn ~ 8700 1600
+NoConn ~ 8750 1550
+NoConn ~ 7650 1650
+NoConn ~ 7700 1700
+NoConn ~ 7650 1750
+NoConn ~ 7700 1800
+NoConn ~ 7650 1850
+NoConn ~ 7700 1900
+NoConn ~ 7650 1950
+NoConn ~ 7650 2050
+NoConn ~ 7700 2100
+NoConn ~ 7650 2150
+NoConn ~ 7700 2200
+NoConn ~ 7650 2250
+NoConn ~ 7700 2300
+NoConn ~ 7650 2350
+NoConn ~ 7650 2450
+NoConn ~ 7700 2500
+NoConn ~ 7650 2550
+NoConn ~ 7700 2600
+NoConn ~ 7700 3100
+NoConn ~ 7650 3150
+NoConn ~ 7700 3200
+NoConn ~ 7650 3250
+NoConn ~ 7700 3300
+NoConn ~ 7650 3550
+NoConn ~ 7700 3600
+NoConn ~ 7650 3650
+NoConn ~ 7700 3700
+NoConn ~ 7650 3750
+NoConn ~ 7700 3800
+NoConn ~ 8700 3800
+NoConn ~ 8750 3750
+NoConn ~ 8700 3600
+NoConn ~ 8750 3550
+NoConn ~ 8700 3500
+NoConn ~ 8750 3450
+NoConn ~ 8700 3400
+NoConn ~ 8750 3350
+NoConn ~ 8700 3300
+NoConn ~ 8700 3200
+NoConn ~ 8750 2950
+NoConn ~ 8700 2900
+NoConn ~ 8750 2850
+NoConn ~ 8700 2800
+NoConn ~ 8750 2750
+NoConn ~ 8700 2700
+NoConn ~ 8750 2650
+NoConn ~ 8700 2600
+NoConn ~ 8750 2550
+NoConn ~ 8700 2500
+NoConn ~ 8750 2450
+NoConn ~ 8750 2350
+NoConn ~ 8700 2300
+NoConn ~ 8750 2250
+NoConn ~ 8700 2200
+NoConn ~ 8750 2150
+NoConn ~ 8750 1950
+NoConn ~ 8700 1900
+NoConn ~ 8750 1850
+NoConn ~ 8700 1800
+NoConn ~ 8750 1750
+NoConn ~ 8700 1700
+NoConn ~ 7700 2000
+$Comp
+L Connector:Conn_01x01_Male J12
+U 1 1 60F839A6
+P 1050 1600
+F 0 "J12" H 1158 1781 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 1158 1690 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 1050 1600 50  0001 C CNN
+F 3 "~" H 1050 1600 50  0001 C CNN
+	1    1050 1600
+	1    0    0    -1  
+$EndComp
+Text Label 1250 1600 0    50   ~ 0
+IORDY
+Wire Wire Line
+	6300 2750 5600 2750
+Wire Wire Line
+	5600 4850 6300 4850
 $EndSCHEMATC
