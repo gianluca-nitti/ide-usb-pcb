@@ -827,31 +827,9 @@ F 3 "~" H 1050 1350 50  0001 C CNN
 $EndComp
 Text Label 1250 1350 0    50   ~ 0
 DMARQ
-$Comp
-L Connector:Conn_01x01_Male J6
-U 1 1 60EEE5DF
-P 1050 1850
-F 0 "J6" H 1158 2031 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 1158 1940 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 1050 1850 50  0001 C CNN
-F 3 "~" H 1050 1850 50  0001 C CNN
-	1    1050 1850
-	1    0    0    -1  
-$EndComp
-Text Label 1250 1850 0    50   ~ 0
+Text Label 1250 1700 0    50   ~ 0
 DMACK
-$Comp
-L Connector:Conn_01x01_Male J7
-U 1 1 60F0768E
-P 1050 2100
-F 0 "J7" H 1158 2281 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 1158 2190 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 1050 2100 50  0001 C CNN
-F 3 "~" H 1050 2100 50  0001 C CNN
-	1    1050 2100
-	1    0    0    -1  
-$EndComp
-Text Label 1250 2100 0    50   ~ 0
+Text Label 1250 1800 0    50   ~ 0
 INTRQ
 $Comp
 L Connector:Conn_01x01_Male J8
@@ -879,31 +857,9 @@ F 3 "~" H 1050 2550 50  0001 C CNN
 $EndComp
 Text Label 1250 2550 0    50   ~ 0
 CSEL
-$Comp
-L Connector:Conn_01x01_Male J10
-U 1 1 60F15E7A
-P 1050 2800
-F 0 "J10" H 1158 2981 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 1158 2890 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 1050 2800 50  0001 C CNN
-F 3 "~" H 1050 2800 50  0001 C CNN
-	1    1050 2800
-	1    0    0    -1  
-$EndComp
 Text Label 1250 2800 0    50   ~ 0
 IOCS16
-$Comp
-L Connector:Conn_01x01_Male J11
-U 1 1 60F15E81
-P 1050 3050
-F 0 "J11" H 1158 3231 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 1158 3140 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 1050 3050 50  0001 C CNN
-F 3 "~" H 1050 3050 50  0001 C CNN
-	1    1050 3050
-	1    0    0    -1  
-$EndComp
-Text Label 1250 3050 0    50   ~ 0
+Text Label 1250 2900 0    50   ~ 0
 PDIAG
 NoConn ~ 2950 2400
 NoConn ~ 2800 5400
@@ -974,21 +930,32 @@ NoConn ~ 8700 1800
 NoConn ~ 8750 1750
 NoConn ~ 8700 1700
 NoConn ~ 7700 2000
-$Comp
-L Connector:Conn_01x01_Male J12
-U 1 1 60F839A6
-P 1050 1600
-F 0 "J12" H 1158 1781 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 1158 1690 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 1050 1600 50  0001 C CNN
-F 3 "~" H 1050 1600 50  0001 C CNN
-	1    1050 1600
-	1    0    0    -1  
-$EndComp
 Text Label 1250 1600 0    50   ~ 0
 IORDY
 Wire Wire Line
 	6300 2750 5600 2750
 Wire Wire Line
 	5600 4850 6300 4850
+$Comp
+L Connector:Conn_01x03_Male J6
+U 1 1 60EBBB9D
+P 1050 1700
+F 0 "J6" H 1158 1981 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 1158 1890 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 1050 1700 50  0001 C CNN
+F 3 "~" H 1050 1700 50  0001 C CNN
+	1    1050 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J7
+U 1 1 60EC64D1
+P 1050 2800
+F 0 "J7" H 1158 2981 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1158 2890 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 1050 2800 50  0001 C CNN
+F 3 "~" H 1050 2800 50  0001 C CNN
+	1    1050 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
