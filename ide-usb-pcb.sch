@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Scheda di interfaccia PATA/IDE per STM32F4DISCOVERY"
 Date ""
 Rev ""
 Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment1 "J4: (opzionale) porta usb per alimentazione 5V"
+Comment2 "J3: connettore alimentazione 5V periferica"
+Comment3 "J2: socket per la scheda STM32F4DISCOVERY"
+Comment4 "J1: connettore periferica PATA/IDE"
 $EndDescr
 $Comp
 L Logic_LevelTranslator:TXS0108EPW U1
